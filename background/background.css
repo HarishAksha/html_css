@@ -1,0 +1,43 @@
+body{
+    /* background-color: gray; */
+
+    /* background: linear-gradient(to top,white,gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    background-image: url(../asset/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    width: 600px;
+    background-size: cover;
+}
+
+h2, p{
+    color: white;
+    /* background-color: black; */
+    width: 400px;
+    margin-left: 70px;
+}
+
+h2{
+    background: linear-gradient(to right, skyblue,green);
+    /* background-repeat: no-repeat; */
+    /* fixed for full area else it put only for value. */
+    /* background-attachment: fixed; */
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p{
+    background: linear-gradient(to left, white, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100px;
+    justify-content: center;
+    width: 500px;
+    padding: 59px 25px 20px 25px;
+    /* word-break: ; */
+}

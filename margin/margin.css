@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+#d1{
+    width: 400px;
+    height: 300px;
+    background-color: lightblue;
+    color: red;
+    margin: 50px;
+    padding: 15px;
+}
+#d2{
+    width: 400px;
+    background-color: lightgray;
+    height: 300px;
+    margin-left: auto;
+    /* padding: 15px; */
+}
+h2{
+    /* padding-left:30px ; */
+    /* justify-content: center; */
+}
+p{
+    padding: 80px;
+}
