@@ -1,0 +1,113 @@
+/* body{
+    background-color:  #1a1a1a;
+    position: fixed;
+}
+.whole{
+    height: 100vh;
+    position: relative;
+}
+
+.left_side{
+    width: 400px;
+    height: 100vh;
+    background-color: black;
+    border-radius: 5px;
+}
+.left_header{
+
+}
+.logo-container {
+    width: 30px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.chatgpt-logo {
+    height: 30px;
+}
+
+.menu_bar_div{
+width: 25px;
+}
+.menu_bar{
+width: 20px;
+opacity: 0.7;
+} */
+
+
+
+body{
+    background-color:  #1a1a1a;
+    margin: 0 auto;
+}
+
+.whole{
+    height: 100vh;
+    display: flex;
+}
+
+.left_side{
+    width: 300px;
+    height: calc(100vh - 0px);
+    background-color: black;
+}
+.left_header{
+    padding: 7px;
+}
+.chatgpt-logo{
+    width: 30px;
+    height: 30px;
+}
+.menu_bar{
+    float: right;
+    width: 25px;
+    height: 23px;
+    opacity: 0.5;
+    padding: 2px;
+}
+.new_div{
+    display: flex;
+    padding: 12px;
+    border-radius: 6px;
+}
+.forhover{
+    transition: background-color 0.2s;
+}
+.edit_icon{
+    width: 17px;
+    height: 17px;
+    opacity: 0.7;
+}
+.left_menu{
+    padding: 10px;
+}
+.new_chat{
+    color: white;
+    padding: 0 10px;
+    opacity: 0.9;
+    margin: 0;
+}
+.ryt_sde{
+    width: calc(100% - 300px);
+}
+.ryt_head{
+    color: white;
+    width: 100px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    transition: background-color 0.2s;
+    margin: 7px;
+}
+.forhover:hover{
+    background-color: #1a1a1a;
+}
+.ryt_head:hover{
+    background-color: #454545;
+}
+.down_arrow{
+    width: 10px;
+    height: 10px;
+}
